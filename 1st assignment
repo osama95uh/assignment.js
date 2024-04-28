@@ -1,0 +1,61 @@
+১. Variable কি ?  
+Ans: Variable হলো  JavaScript এ ডাটার টাইপ নির্ধারণ করে।
+
+২. Variable কিভাবে লিখতে হয় ?
+  Ans: Variable Example
+       var (type) = “value” ;
+       console.log(type);
+
+৩. string type variable কি ও কি ভাবে লিখতে হয় ?
+  Ans: string type variable হলো কোন var এর  ভ্যালু কে কোটেশনের মধ্যে  লেখা হয়।
+  String Ex: var (strType) = “Bipul” ;
+  console.log(strType);
+
+৪. number type variable কি ও কি ভাবে লিখতে হয় ?
+     Ans: Number type variable হলো কোন var এর ভ্যালু কে শুধু নাম্বরের মাধ্মে লেখা হয়।
+     Ex: var (numType) =10 ;
+    console.log(numType);
+৫. Boolan type variable  কি ও কি ভাবে লিখতে হয় ?
+   Ans: Boolean type variable হলো  কোন ভারের ভ্যালু কে সত্য ও মিথ্যা  যাচাই করা হয়।
+   Ex: var (BoolType) : True;
+   console.log(BoolType);
+
+   var (BoolType) : false;
+   console.log(BoolType);
+
+৬. toUpperCase() & toLowerCase() এর ব্যাবহার কি ভাবে করতে হয় ? 
+  Ans: কোন লোয়ার কেস লেটার কে আপার কেস লেটারে লিখতে 
+     [Ex: console.log(typename)] হয়।
+
+     কোন আপার কেস লেটার কে  লোয়ার কেস লেটারে লিখতে 
+     [Ex: console.log(typename) হয়।
+
+৭. JavaScript এর মোট কয়টি অপারেটর আছে ও কি কি ?
+  Ans: JavaScript এ মোট ৮টি Operator আছে ।
+  এগুলো হলোঃ- Arithmeitc, Comprasion, Logical(or Relaotinal), Conditional (or ternary), String, type, BitWise Operator.
+৮. Math.abs() এর ব্যাবহার লিখুন । 
+  Ans: কোন ঋণাত্মক ফাংশন কে ধনাত্মক করার জন্য Math.abs use করা হয়।
+  Ex: var (num) = -50;
+    var sum = Math.abs(num);
+    console.log(sum);
+৯. Math.celi()  এর ব্যাবহার লিখুন । 
+  Ans: Math.celi কাজ হলো ০.০০০০০১ হয় তাহলে তাকে ১ করে দিবে।
+  Ex: var (voter) = 0.00001;
+  var sum =Math.celi(voter);
+  console.log(sum);
+১০. Math.Floor() এর ব্যাবহার লিখুন । 
+  Ans:Math.Floor কাজ হলো 0.9999 হয় তাহলে তাকে 0 করে দিবে।
+  Ex: var (voter) = 0.9999;
+  var sum =Math.Floor(voter);
+  console.log(sum);
+১১. Math.round() এর ব্যাবহার লিখুন ।
+  Ans: Math.round হলো কোন সংখ্যা  ০.৫ হয় তাহলে তাকে +১ করে আর যদি ০.৪ হয় তাহলে -১ করে দিবে।
+  Ex: var (voter) = 0.5;
+  var sum =Math.round(voter);
+  console.log(sum);
+
+১২. Math.random() এর ব্যাবহার লিখুন ।
+  Ans: Math.random এর কাজ হলো যখন খুশি সেটা শোঁ করবে।
+    Ex: var (voter) = 10;
+  var sum =Math.random(voter);
+  console.log(sum);
